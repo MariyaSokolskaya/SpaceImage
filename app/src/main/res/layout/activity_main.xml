@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:verticalScrollbarPosition="defaultPosition"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textSize="28sp"
+        android:textStyle="italic|bold"
+        android:textColor="#03144E"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/title_image"/>
+    <!--Временное текстовое поле-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_url"
+        android:textSize="20sp"
+        android:textColor="#03144E"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation"
+        android:textSize="20sp"
+        android:textColor="#03144E"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyright"
+        android:textSize="20sp"
+        android:textColor="#03144E"
+        android:padding="5dp"/>
+</LinearLayout>
